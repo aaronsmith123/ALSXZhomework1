@@ -7,4 +7,94 @@ and open the template in the editor.
     Created on : Sep 27, 2016, 8:01:00 PM
     Author     : Aaron
 */
+@media screen and (max-width: 500px) {
+    *{
+        font-family: Arial,Verdana,sans-serif
+    }
+    /* Header */
+    #header{
+        /*line-height: 15px;
+        /*margin: 10px;*/
+    }
+    h1{
+        width: 100%;
+        text-align: center;
+        
+        
+    }
+        ul li:nth-child(even){
+        list-style-type: disc !important;
+       
+    }
+    .contactinfo{
+      width: 100%;
+      display: inline;
+        
+    }
+
+    /* Education */
+    #education{
+        line-height: 1px;
+        margin: 20px;
+    }
+    #education h3 {
+        font-weight: bold;
+        text-decoration: underline;
+    }
+    #education span {
+        font-weight: bold;
+    }
+    #education #degree {
+        font-style: italic;
+    }
+    /* Qualifications */
+    #qualifications {
+        line-height: 1px;
+        margin: 20px;
+    }
+    #qualifications h3 {
+        font-weight: bold;
+        text-decoration: underline;
+    }
+    #qualifications p {
+        font-weight: bold;
+    }
+    #qualifications li{
+        list-style-type: disc;
+        display: list-item;
+        line-height: 18px;
+    }
+    #qualifications span {
+        color: red;
+    }
+    /* Interships */
+    #internships {
+        line-height: 1px;
+        margin: 20px;
+    }
+    #internships h3{
+        font-weight: bold;
+        text-decoration: underline;
+    }
+    #internships span{
+        font-weight: bold;
+    }
+    #internships #tech {
+        font-weight: bold;
+        font-style: italic;
+    }
+    #internships p{
+        color: red;
+    }
+    #internships li {
+        color: red;
+        list-style-type: disc;
+        display: list-item;
+        line-height: 18px;
+    }
+}
+
+@media screen and (min-width: 501px) {
+    
+}
 

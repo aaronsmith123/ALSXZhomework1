@@ -6,11 +6,53 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <link type='text/css' rel="stylesheet" href="styles/smith.css"/>
+        <title>Aaron Smith's Resume</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <div>TODO write content</div>
+        <div id="header">
+        <h1>Aaron Smith</h1>
+        <ul>
+            <li class="contactinfo">201 Glenmore Road</li>
+            <li class="contactinfo">Chapel Hill, NC 27516</li>
+            <li class="contactinfo">(919)-636-1963</li>
+            <li class="contactinfo">asmith123@elon.edu</li>
+        </ul>
+    </div>
+        <div id="education">
+            <h3>EDUCATION</h3>
+            <p><span>Elon University,</span> Elon, NC</p>
+            <p id='degree'>Bachelor of Science in Information Science</p>
+            <p>May 2018</p>
+            <p>GPA: 3.64, 1 semester on President's List</p>
+        </div>
+        <div id='qualifications'>
+            <h3>TECHNICAL QUALIFICATIONS</h3>
+            <p>Programming Languages:</p>
+            <ul>
+                <li>Java, HTML/CSS, Python,<span> C, C++, C#, SQL, XML, Javascript, JQuery</span></li>
+            </ul>
+            <p>Software Applications:</p>
+            <ul>
+                <li>Eclipse, NetBeans, Git, Anaconda,<span> IBM Rational Application Developer, SQL Developer, MySQL, MySQL Workbench, Android, Servlets, JSP, Openshift</span></li>
+            </ul>
+            <p>Operating Systems</p>
+            <ul>
+                <li>Windows 7 & 10, Mac OSX,<span> Linux (Ubuntu desktop/server)</span></li>
+            </ul>
+        </div>
+        <div id='internships'>
+            <h3>INTERSHIPS</h3>
+            <p><span>Fidelity Investments,</span> Raleigh, NC</p>
+            <p id='tech'>Technical Intern</p>
+            <p>Summer 2016</p>
+            <ul>
+                <li>Pulled information from instantiated Java objects to generate XML output, updated existing XML style sheets, and used stored procedure calls to push information to database</li>
+                <li>Wired together EJBs in Spring XML config files</li>
+                <li>Updated documentation for previous software applications, mapped UI elements</li>
+            </ul>
+        </div>
     </body>
 </html>
