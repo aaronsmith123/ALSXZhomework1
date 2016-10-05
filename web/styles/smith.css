@@ -1,5 +1,5 @@
 /*
-10/16 Copyright Aaron Smith & Xenia Zantello
+Copyright © 2016 Aaron Smith & Xenia Zantello
 */
 /* 
     Created on : Sep 27, 2016, 8:01:00 PM
@@ -98,7 +98,57 @@
         display: list-item;
         line-height: 1.125em;
     }
+        /* Work Experience */
+    
+    #work{
+        line-height: .063em;
+        margin: 1.25em;
+    }
+    #work h3 {
+        font-weight: bold;
+        text-decoration: underline;
+    }
+    #work li{
+        list-style-type: disc;
+        display: list-item;
+        line-height: 1.4em;
+        margin-top: -.5em;
+    }
+    #work span{
+        font-weight: bold;
+    }
+    #work .tech {
+        font-weight: bold;
+        font-style: italic;
+    }
+        #oncampus{
+        line-height: .063em;
+        margin: 1.25em;
+    }
+    #oncampus h3 {
+        font-weight: bold;
+        text-decoration: underline;
+        line-height: 1.25em;
+    }
+    #oncampus p{
+        color: red;
+    }
+    #oncampus li{
+        color: red;
+        list-style-type: disc;
+        display: list-item;
+        line-height: 1.5em;
+        margin-top: -.5em;
+    }
+    #oncampus span{
+        font-weight: bold;
+    }
+    #oncampus .tech {
+        font-weight: bold;
+        font-style: italic;
+    }
 }
+
 
 @media screen and (min-width: 501px) {
         *{
@@ -187,6 +237,55 @@
         display: list-item;
         line-height: 1.125em;
     }
-
+    /* Work Experience */
+    
+    #work{
+        line-height: .063em;
+        margin: 1.25em;
+    }
+    #work h3 {
+        font-weight: bold;
+        text-decoration: underline;
+    }
+    #work li{
+        list-style-type: disc;
+        display: list-item;
+        line-height: 1.5em;
+        margin-top: -.5em;
+    }
+    #work span{
+        font-weight: bold;
+    }
+    #work .tech {
+        font-weight: bold;
+        font-style: italic;
+    }
+    
+    /* Campus */
+    #oncampus{
+        line-height: .063em;
+        margin: 1.25em;
+    }
+    #oncampus h3 {
+        font-weight: bold;
+        text-decoration: underline;
+    }
+    #oncampus p{
+        color: red;
+    }
+    #oncampus li{
+        color: red;
+        list-style-type: disc;
+        display: list-item;
+        line-height: 1.5em;
+        margin-top: -.5em;
+    }
+    #oncampus span{
+        font-weight: bold;
+    }
+    #oncampus .tech {
+        font-weight: bold;
+        font-style: italic;
+    }
 }
 
